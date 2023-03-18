@@ -53,20 +53,20 @@ input {
 body {
   background-color: #D5E1EF;
 }
-body .qr-code {
+body .container {
   width: 320px;
   background-color: #ffffff;
   border-radius: 20px;
   margin: 152px auto;
   padding: 16px;
 }
-body .qr-code .container > img {
+body .container > img {
   width: 288px;
   height: 288px;
   border-radius: 10px;
   align-items: center;
 }
-body .qr-code .container .description > h1 {
+body .container .description > h1 {
   color: #1F314F;
   font-family: "Outfit", sans-serif;
   font-size: 22px;
@@ -75,7 +75,7 @@ body .qr-code .container .description > h1 {
   line-height: 28px;
   margin-top: 24px;
 }
-body .qr-code .container .description > p {
+body .container .description > p {
   width: 256px;
   color: #7D889E;
   font-family: "Outfit", sans-serif;
